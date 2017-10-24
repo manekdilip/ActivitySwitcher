@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity Switcher</string>
+
+    <!--screen 1-->
+    <string name="title_screen_1">Screen 1</string>
+    <string name="label_switch">Switch</string>
+
+    <!--screen 2-->
+    <string name="title_screen_2">Screen 2</string>
+    <string name="label_back">Back</string>
+</resources>

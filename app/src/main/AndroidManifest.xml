@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.switcher"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!--screen 1 - main launcher-->
+        <activity
+            android:name="com.demo.switcher.Activity1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--screen 2-->
+        <activity
+            android:name="com.demo.switcher.Activity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest> 
